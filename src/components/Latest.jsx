@@ -10,7 +10,7 @@ function Latest() {
         <div className="flex flex-wrap justify-center gap-6 mt-6">
           <div className="card shadow-xl p-6 border border-solid w-[25rem]">
             <figure>
-              <img src="/src/images/latest1.png" alt="Ducati XDIAVEL S-73" className="w-full"/>
+              <img src="../images/Latest1.png" alt="Ducati XDIAVEL S-73" className="w-full"/>
             </figure>
             <div className="card-body">
               <h2 className="card-title text-black font-bold">Ducati XDIAVEL S-73</h2>
@@ -24,7 +24,7 @@ function Latest() {
           {/* card number (2)*/}
           <div className="card shadow-xl p-6 border border-solid w-[25rem]">
             <figure>
-              <img src="/src/images/latest2.png" alt="Motorcycles & Scooters" className="w-full"/>
+              <img src="../images/Latest2.png" alt="Motorcycles & Scooters" className="w-full"/>
             </figure>
             <div className="card-body">
               <h2 className="card-title text-black font-bold">Motorcycles & Scooters</h2>
@@ -38,7 +38,7 @@ function Latest() {
           {/* card number (3) */}
           <div className="card shadow-xl p-6 border border-solid w-[25rem]">
             <figure>
-              <img src="/src/images/latest3.png" alt="2021 Honda CBR500R" className="w-full"/>
+              <img src="../images/Latest3.png" alt="2021 Honda CBR500R" className="w-full"/>
             </figure>
             <div className="card-body">
               <h2 className="card-title text-black font-bold">2021 Honda CBR500R</h2>
