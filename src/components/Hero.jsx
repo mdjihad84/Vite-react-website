@@ -2,7 +2,7 @@
 function Hero() {
   return (
     <section className="hero min-h-screen bg-white">
-      <div className="flex flex-col lg:flex-row-reverse items-center bg-red-100 p-20 py-30">
+      <div className="flex flex-col lg:flex-row-reverse items-center bg-red-100 p-20 py-30 h-[600px]">
         <img src="/src/assets/images/slider/bike1.png" className="max-w-full lg:max-w-sm rounded-lg" alt="Bike"/>
         <div className="lg:mr-8 text-center lg:text-left mt-6 lg:mt-0">
           <h1 className="text-3xl md:text-5xl font-bold text-black">Ride-on R15 V4 with Smile</h1>

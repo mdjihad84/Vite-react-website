@@ -20,11 +20,11 @@ function Header() {
         </div>
         
         {/* Logo for large screens */}
-        <a className="btn btn-ghost hidden lg:block text-black font-bold text-4xl font-system-ui px-20">Bike Zone</a>
+        <a className="btn btn-ghost hidden lg:block text-black font-bold text-4xl font-system-ui pl-[3rem]">Bike Zone</a>
       </div>
 
       {/*large screens */}
-      <div className="navbar-end hidden lg:flex px-20">
+      <div className="navbar-end hidden lg:flex pr-[3rem]">
         <ul className="menu menu-horizontal px-1">
           <li><a className="text-black ml-2 text-base font-semibold" href="#">Home</a></li>
           <li><a className="text-black ml-2 text-base font-semibold" href="#">Shop</a></li>
