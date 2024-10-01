@@ -3,11 +3,12 @@ function Latest() {
     <section className="bg-white py-10">
       <div className="container mx-auto px-4">
         <div className="text-center mb-10">
-          <h1 className="text-2xl md:text-3xl font-bold text-black">latest News</h1>
+          <h1 className="text-5xl font-semibold text-black mt-6">latest News</h1>
         </div>
+
         {/* 1st card */}
         <div className="flex flex-wrap justify-center gap-6 mt-6">
-          <div className="card w-full sm:w-80 md:w-96 shadow-xl p-6">
+          <div className="card w-full sm:w-80 md:w-96 shadow-xl p-6 border border-solid">
             <figure>
               <img src="/src/assets/images/others/Latest1.png" alt="Ducati XDIAVEL S-73" className="w-full"/>
             </figure>
@@ -19,8 +20,9 @@ function Latest() {
               </div>
             </div>
           </div>
+
           {/* 2nd card */}
-          <div className="card w-full sm:w-80 md:w-96 shadow-xl p-6">
+          <div className="card w-full sm:w-80 md:w-96 shadow-xl p-6 border border-solid">
             <figure>
               <img src="/src/assets/images/others/Latest2.png" alt="Motorcycles & Scooters" className="w-full"/>
             </figure>
@@ -32,8 +34,9 @@ function Latest() {
               </div>
             </div>
           </div>
+
           {/* 3th card */}
-          <div className="card w-full sm:w-80 md:w-96 shadow-xl p-6">
+          <div className="card w-full sm:w-80 md:w-96 shadow-xl p-6 border border-solid">
             <figure>
               <img src="/src/assets/images/others/Latest3.png" alt="2021 Honda CBR500R" className="w-full"/>
             </figure>
