@@ -8,13 +8,13 @@ function Featured() {
       </div>
       <div className="flex flex-wrap justify-center gap-12">
         <div className="w-full sm:w-1/2 lg:w-1/4 p-2">
-          <img src="/src/assets/images/others/feature-bike.png" alt="Featured Bike" className="w-full h-auto"/>
+          <img src="/src/assets/images/others/Feature-bike.png" alt="Featured Bike" className="w-full h-auto"/>
         </div>
         <div className="w-full sm:w-1/2 lg:w-1/4 p-2">
-          <img src="/src/assets/images/others/feature-bike.png" alt="Featured Bike" className="w-full h-auto"/>
+          <img src="/src/assets/images/others/Feature-bike.png" alt="Featured Bike" className="w-full h-auto"/>
         </div>
         <div className="w-full sm:w-1/2 lg:w-1/4 p-2">
-          <img src="/src/assets/images/others/feature-bike.png" alt="Featured Bike" className="w-full h-auto"/>
+          <img src="/src/assets/images/others/Feature-bike.png" alt="Featured Bike" className="w-full h-auto"/>
         </div>
       </div>
     </div>
