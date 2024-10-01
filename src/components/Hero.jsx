@@ -10,7 +10,7 @@ function Hero() {
             Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
             officia consequat duis enim velit mollit.
           </p>
-          <button className="btn btn-md bg-red-400 text-white px-6 border-none">Purchase</button>
+          <button className="btn bg-red-400 text-white px-10 border-none text-base">Purchase</button>
         </div>
       </div>
     </section>

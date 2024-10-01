@@ -18,22 +18,22 @@ function Header() {
           </ul>
         </div>
         {/* Logo for large screens */}
-        <a className="btn btn-ghost text-xl hidden lg:block text-black font-bold text-4xl">Bike Zone</a>
+        <a className="btn btn-ghost hidden lg:block text-black font-bold text-4xl font-system-ui">Bike Zone</a>
       </div>
 
       {/* Navbar links for large screens */}
       <div className="navbar-end hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Shop</a></li>
-          <li><a href="#">News</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a className="text-black ml-2 text-base font-semibold" href="#">Home</a></li>
+          <li><a className="text-black ml-2 text-base font-semibold" href="#">Shop</a></li>
+          <li><a className="text-black ml-2 text-base font-semibold" href="#">News</a></li>
+          <li><a className="text-black ml-2 text-base font-semibold" href="#">Contact</a></li>
         </ul>
-        <button className="btn bg-red-400 text-white px-8 border-none">Login</button>
+        <button className="btn bg-red-400 text-white px-10 border-none text-base ml-4">Login</button>
       </div>
 
       {/* Logo for small screens */}
-      <a className="btn text-xl ml-auto lg:hidden font-bold bg-red-400 border-none text-white">Bike Zone</a>
+      <a className="btn text-xl ml-auto lg:hidden font-bold bg-red-400 border-none text-white font-system-ui">Bike Zone</a>
     </section>
   );
 }
