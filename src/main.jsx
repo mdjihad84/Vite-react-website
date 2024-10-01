@@ -6,7 +6,7 @@ import Hero from './components/Hero';
 import Futured from './components/Fetured';
 import Latest from './components/Latest';
 
-createRoot(document.getElementById('root')).render(
+createRoot(document.getElementById('rooted')).render(
   <StrictMode>
       <Header/>
       <Hero/>
