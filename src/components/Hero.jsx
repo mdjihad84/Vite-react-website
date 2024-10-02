@@ -1,8 +1,10 @@
+
 function Hero() {
   return (
     <div className="hero min-h-screen bg-white">
       <div className="flex flex-col lg:flex-row-reverse items-center bg-red-100 p-8 lg:p-20 w-full max-w-screen-xl mx-auto lg:h-[600px]">
-        <img src="../images/Bike1.png" className="w-full lg:w-[400px] rounded-lg" alt="Bike"/>
+        {/* Use the imported image */}
+        <img src="/public/images/Bike1.png" className="w-full lg:w-[400px] rounded-lg" alt="Bike" />
         <div className="lg:mr-8 text-center lg:text-left mt-6 lg:mt-0">
           <h1 className="text-4xl md:text-5xl font-bold text-black">Ride-on R15 V4 with Smile</h1>
           <p className="py-4 md:py-6 text-black font-sans lg:w-[360px]">
@@ -15,4 +17,5 @@ function Hero() {
     </div>
   );
 }
+
 export default Hero;
