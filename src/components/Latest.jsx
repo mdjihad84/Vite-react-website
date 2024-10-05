@@ -49,5 +49,4 @@ function Latest() {
     </div>
   );
 }
-
 export default Latest;
