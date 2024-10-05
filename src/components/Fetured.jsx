@@ -4,7 +4,7 @@ function Featured() {
     <div className="bg-white p-4">
       <div className="text-center mb-8">
         <h2 className="text-black text-5xl font-semibold my-8">Featured Bikes This Year</h2>
-        <p className="text-center text-red-400 mt-[-16px]">Best bike collection</p>
+        <p className="text-center text-red-400 mb-16 mt-[-16px]">Best bike collection</p>
       </div>
       <div className="flex flex-wrap justify-center gap-12">
         <div className="w-full sm:w-1/2 lg:w-1/4 p-2">
