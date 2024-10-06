@@ -1,15 +1,15 @@
 
 import Featured from "./Bikeimages";
-const bikes = [
-  {imageUrl: '/public/images/Feature-bike.png'},
-  {imageUrl: '/public/images/Feature-bike.png'},
-  {imageUrl: '/public/images/Feature-bike.png'},
+const Bikes = [
+  {imageUrl: '/images/Feature-bike.png'},
+  {imageUrl: '/images/Feature-bike.png'},
+  {imageUrl: '/images/Feature-bike.png'},
 ];
 
 function App() {
   return (
     <div>
-      <Featured bikes={bikes}/>
+      <Featured Bikes={Bikes}/>
     </div>
   );
 }

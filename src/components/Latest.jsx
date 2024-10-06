@@ -1,5 +1,4 @@
 
-// import React from 'react';
 import { useState } from "react";
 import Card from "./Card";
 
@@ -24,7 +23,6 @@ const Latest = () => {
       imageUrl: '/images/Latest3.png',
     },
   ])
-
   return (
     <div className="bg-white py-10">
       <div className="container mx-auto px-4">
