@@ -1,23 +1,17 @@
 
-function Featured() {
+import Featured from "./Bikeimages";
+const bikes = [
+  {imageUrl: '/public/images/Feature-bike.png'},
+  {imageUrl: '/public/images/Feature-bike.png'},
+  {imageUrl: '/public/images/Feature-bike.png'},
+];
+
+function App() {
   return (
-    <div className="bg-white p-4">
-      <div className="text-center mb-8">
-        <h2 className="text-black text-5xl font-semibold my-8">Featured Bikes This Year</h2>
-        <p className="text-center text-red-400 mb-16 mt-[-16px]">Best bike collection</p>
-      </div>
-      <div className="flex flex-wrap justify-center gap-12">
-        <div className="w-full sm:w-1/2 lg:w-1/4 p-2">
-          <img src="/public/images/Feature-bike.png" alt="Featured Bike" className="w-full h-auto"/>
-        </div>
-        <div className="w-full sm:w-1/2 lg:w-1/4 p-2">
-          <img src="/public/images/Feature-bike.png" alt="Featured Bike" className="w-full h-auto"/>
-        </div>
-        <div className="w-full sm:w-1/2 lg:w-1/4 p-2">
-          <img src="/public/images/Feature-bike.png" alt="Featured Bike" className="w-full h-auto"/>
-        </div>
-      </div>
+    <div>
+      <Featured bikes={bikes}/>
     </div>
   );
 }
-export default Featured;
+export default App;
+

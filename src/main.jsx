@@ -8,9 +8,12 @@ import Latest from './components/Latest'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
+    <>
       <Header/>
       <Hero/>
       <Featured/>
       <Latest/>
+    </>
+
   </StrictMode>
 )

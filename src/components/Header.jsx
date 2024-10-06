@@ -23,7 +23,7 @@ function Header() {
       </div>
 
       {/* Large device navigation */}
-      <div className="navbar-end lg:flex mt-6 pr-[7rem]">
+      <div className="navbar-end lg:flex mt-6 pr-[2rem]">
         <ul className="menu menu-horizontal px-1">
           <li><a className="text-black ml-2 text-base font-semibold" href="#">Home</a></li>
           <li><a className="text-black ml-2 text-base font-semibold" href="#">Shop</a></li>
@@ -36,9 +36,7 @@ function Header() {
       <button className="btn bg-red-400 ml-auto lg:hidden text-white px-10 border-none text-base">Login</button>
 
       {/* Large device button */}
-      <div className="navbar-end">
-        <button className="btn bg-red-400 text-white px-10 py-2 mr-28 rounded-md border-none text-base">Login</button>
-      </div>
+      <button className="btn bg-red-400 text-white px-10 py-2 mr-28 rounded-md border-none text-base mt-6">Login</button>
     </div>
   );
 };
